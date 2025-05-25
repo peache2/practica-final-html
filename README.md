@@ -10,3 +10,5 @@
 
 ### Estructuración
 #### Lo hemos diseñado de esta manera para que cada persona que entre a verla pueda entender como funciona todo, asi hacemos que nuestra pagina tenga mas visitas
+<img src="html-.png" /> 
+<img src="html.png" /> 
