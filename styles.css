@@ -9,7 +9,7 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #222;
+    color: rgb(0, 0, 0)
 }
 
 /* Contenedor general */
@@ -27,12 +27,12 @@ a {
 }
 
 a:hover {
-    color: #ff0000;
+    color: #000000;
 }
 
 /* Cabecera */
 header {
-    background-color: #000;
+    background-color: #000000;
     color: white;
     padding: 1.5rem 0;
 }
@@ -74,9 +74,9 @@ main {
 .noticias-principales h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 2px solid #e60000;
+    border-bottom: 2px solid #000000;
     padding-bottom: 0.5rem;
-    color: #d40000;
+    color: #000000;
 }
 
 /* Tarjeta de noticia */
@@ -116,7 +116,7 @@ main {
 .contenido-noticia h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #c10000;
+    color: #000000;
 }
 
 .contenido-noticia p {
