@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMULA 1 NOTICIAS EN 🇪🇸</title>
+    <title>Fórmula 1 Noticias en 🇪🇸</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabecera -->
     <header>
-        <div class="logo">
-            <h1>FORMULA 1 NOTICIAS EN 🇪🇸</h1>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Fórmula 1 Noticias en 🇪🇸</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="https://f1store2.formula1.com/es/" target="_blank">Tienda</a></li>
+                    <li><a href="calendario.html">Calendario</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="https://f1store2.formula1.com/es/">Tienda</a></li>
-                <li><a href="calendario.html">Calendario</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Sección Principal -->
-    <main>
+    <main class="container">
         <section class="noticias-principales">
             <h2>Noticias 2025</h2>
 
             <article class="noticia">
-                <img src="images/alonso.jpg" alt="Alonso" width="500" height="500"> 
+                <img src="images/alonso.jpg" alt="Alonso">
                 <div class="contenido-noticia">
-                    <h1>Alonso tiene un coche para acumular puntos</h1>
+                    <h3>Alonso tiene un coche para acumular puntos</h3>
                     <p>En este 2025, Fernando Alonso afronta una temporada con renovadas esperanzas [...]</p>
                 </div>
             </article>
@@ -37,7 +40,7 @@
             <article class="noticia">
                 <img src="images/sainz.png" alt="Sainz">
                 <div class="contenido-noticia">
-                    <h1>Sainz asegura que tiene buen coche</h1>
+                    <h3>Sainz asegura que tiene buen coche</h3>
                     <p>Carlos Sainz ha comenzado la temporada 2025 con un aire renovado [...]</p>
                 </div>
             </article>
@@ -45,7 +48,7 @@
             <article class="noticia">
                 <img src="images/max.avif" alt="Verstappen">
                 <div class="contenido-noticia">
-                    <h1>Max Verstappen no se rinde</h1>
+                    <h3>Max Verstappen no se rinde</h3>
                     <p>En 2025, Max Verstappen sigue demostrando por qué es uno de los pilotos [...]</p>
                 </div>
             </article>
@@ -53,7 +56,7 @@
             <article class="noticia">
                 <img src="images/charles.jpg" alt="Leclerc">
                 <div class="contenido-noticia">
-                    <h1>Leclerc no está contento con el coche</h1>
+                    <h3>Leclerc no está contento con el coche</h3>
                     <p>La temporada 2025 no está siendo fácil para Charles Leclerc [...]</p>
                 </div>
             </article>
@@ -63,7 +66,9 @@
 
     <!-- Pie de página -->
     <footer>
-        <p>&copy; Copyright FORMULA 1 Noticias en Español</p>
+        <div class="container">
+            <p>&copy; 2025 FORMULA 1 Noticias en Español. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
